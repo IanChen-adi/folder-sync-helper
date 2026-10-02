@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>資料夾自動同步小幫手</title><link rel="stylesheet" href="style.css"></head>
+<body><main>
+<h1>資料夾自動同步小幫手</h1>
+<p class="lead">把 Windows 電腦上的一個資料夾，每 15 分鐘自動備份到你自己的 Google 雲端硬碟。免安裝，只使用 Windows 內建的 PowerShell。</p>
+<div class="card">
+<h2>它會做什麼</h2>
+<ul>
+<li>電腦上新增或修改的檔案，自動上傳到你的 Google 雲端硬碟</li>
+<li>電腦上刪除的檔案，雲端那份會移到垃圾桶（30 天內可還原）</li>
+<li>只單向同步：電腦 → 雲端，不會改動電腦上的檔案</li>
+</ul>
+</div>
+<div class="card">
+<h2>使用方式</h2>
+<ol>
+<li>解壓縮程式資料夾，雙擊「1_開始同步.bat」</li>
+<li>選擇要同步的資料夾</li>
+<li>登入你的 Google 帳號並按「允許」</li>
+</ol>
+<p>之後就會在背景自動同步。想停止時，雙擊「3_停止同步.bat」。</p>
+</div>
+<div class="card">
+<h2>權限說明</h2>
+<p>本工具只申請 Google 雲端硬碟的 <code>drive.file</code> 權限，也就是<strong>只能存取它自己上傳的檔案</strong>，看不到你雲端硬碟裡的其他任何檔案。</p>
+</div>
+<footer><a href="privacy.html">隱私權政策</a> · 聯絡：xlcardstu60912@gmail.com</footer>
+</main></body></html>
